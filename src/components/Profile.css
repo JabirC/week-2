@@ -1,0 +1,26 @@
+.profile_container{
+    height: 820px;
+    width: 650px;
+    background-color: #B9D6F2;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #061A40;
+    font-family: Tahoma;
+    margin-top: none;
+}
+
+.log_out {
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    font-family: Tahoma;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #061A40;
+    border-color: #061A40;
+    color: white;
+    border-style: solid;
+}

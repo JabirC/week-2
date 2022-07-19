@@ -1,0 +1,48 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+.dashboard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: #061A40;
+  }
+  .dashboard__container {
+    position: relative;
+    left:0px;
+    top: 150px;
+    height: 670px;
+    width: 3990px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: white;
+  }
+
+  .nav_bar {
+    position: absolute;
+    left: 201px;
+    height: 150px;
+    width: 1300px;
+    background-color: #006BA6;
+  }
+ 
+  .dash_button {
+    position: absolute;
+    height: 150px;
+    width: 650px;
+    left: 0px;
+  }
+
+  .explore_button {
+    position: absolute;
+    height: 150px;
+    width: 650px;
+    right: 50px;
+  }
